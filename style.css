@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;    
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;    
+    font-size: 14px;
+}
+img{
+    height: 100%;
+    object-fit: cover;    
+    width: 100%;
+}
+main{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-items: center;
+    width: 100%;
+}
+.item{
+    cursor: pointer;
+    flex: 1.5;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    transition: 0.7s ease;
+    width: 100%;
+}
+.item.show{
+    flex: 18;
+}
+.legenda{
+    background-color: rgba(0,0,0,0.5);
+    bottom: 0;
+    color: #fff;
+    left: 0;
+    opacity: 0;
+    padding: 15px;
+    position: absolute;
+}
+.item.show .legenda{
+    opacity: 1;
+}
+@media only screen and (max-width: 700px){
+    main{
+        flex-direction: column;
+    }
+    .legenda h1 {
+        font-size: 20px;
+    }
+    .legenda h3 {
+        font-size: 17px;
+    }
+}
