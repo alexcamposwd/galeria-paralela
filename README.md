@@ -29,7 +29,7 @@ https://galeria-paral-ac.netlify.app/
 ### License/Licença do Projeto
 [MIT License](./LICENSE) ©
 
-Projeto Inserido ao Portfólio:
+Projeto Inserido ao Portfólio:<br/>
 [![alexcamposwd]( https://img.shields.io/badge/-alexcamposwd-blue )](https://alexcamposwd.netlify.app/)
 
 
