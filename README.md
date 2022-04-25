@@ -24,7 +24,7 @@ O projeto é uma galeria de imagens com visualização e transição diferentes 
 ### Analise crítica:
 Apesar da responsividade o projeto não é ideal para dispositivo com tela pequena.
 
-[Demo](https://galeria-paral-ac.netlify.app/)
+##[Demo](https://galeria-paral-ac.netlify.app/)
 
 ### License/Licença do Projeto
 [MIT License](./LICENSE) ©
